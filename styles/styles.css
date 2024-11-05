@@ -16,15 +16,16 @@ body {
   border-radius: 5px;
   background: #fff;
   color: #005fac;
-  padding: 20px 25px;
+  padding: 15px 35px;
   font-size: 20px;
   font-weight: 600;
+  border: 0px;
   text-transform: capitalize;
 }
 .submit-btn {
   border-radius: 5px;
   color: #ffffff;
-  padding: 20px 35px;
+  padding: 15px 35px;
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
@@ -72,10 +73,10 @@ body {
   align-items: center;
   gap: 100px;
 }
-.failure-content{
+.failure-content {
   width: 450px;
 }
-.failure-list{
+.failure-list {
   padding: 0;
 }
 .fa-solid {
@@ -100,6 +101,57 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+
+/* Main section Skills Styles */
+
+.plan-area {
+  padding-bottom: 50px;
+}
+.plan-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.skills-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+.skills-plan {
+  text-align: center;
+}
+.skill-title {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.skill-subTitle {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.watch-area {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/watch.png");
+  padding: 60px 0px 60px 60px;
+}
+
+.watch-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  width: 500px;
 }
 
 /* Footer Section Styles */
