@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+/* Main Part Styles */
+#main-area {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.button-part {
+  text-align: right;
+}
+.primary-btn {
+  border-radius: 5px;
+  background: #fff;
+  color: #005fac;
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.submit-btn {
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 20px 35px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 8px;
+  background: #005fac;
+  border: 0px;
+}
+.banner-area {
+  background-image: url("../images/banner/banner3.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banner-part {
+  display: flex;
+  justify-content: end;
+}
+.banner-content {
+  width: 500px;
+  padding-top: 200px;
+}
+.banner-title {
+  color: #fff;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.banner-description {
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+
+/* Footer Section Styles */
+
+.footer-section {
+  background: #151414;
+}
+.footer-area {
+  display: flex;
+  gap: 730px;
+  padding: 130px 0px;
+}
+.footer-left-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-riight-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.footer-left {
+  width: 50%;
+}
+.figure-pic{
+    margin: 0px;
+}
+.figure-pic img{
+    margin-right: 10px;
+}
+.footer-desscription {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.caption-content {
+  display: flex;
+  align-items: center;
+}
+.caption-title, .caption-desctiption{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.caption-desctiption{
+    margin-left: 5px;
+}
+.input-field {
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  background: #151414;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 10px 0px 10px 10px;
+  margin-bottom: 20px;
+}
